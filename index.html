@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Library</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 25px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    footer {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 10px;
+    }
+    .game {
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin: 10px;
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      float: left;
+      width: 30%;
+      text-align: center;
+    }
+    .game:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    form {
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">About</a>
+    </nav>
+  </header>
+  <h1>Welcome to the Game Library</h1>
+  <div class="game">
+    <img src="game1.jpg" alt="Game 1">
+    <h2>Game 1</h2>
+    <p>Description of Game 1</p>
+  </div>
+  <div class="game">
+    <img src="game2.jpg" alt="Game 2">
+    <h2>Game 2</h2>
+    <p>Description of Game 2</p>
+  </div>
+  <div class="game">
+    <img src="game3.jpg" alt="Game 3">
+    <h2>Game 3</h2>
+    <p>Description of Game 3</p>
+  </div>
+  <form>
+    <h2>Contact Us</h2>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br>
+    <input type="submit" value="Submit">
+  </form>
+  <footer>
+    &copy; 2023 Game Library
+  </footer>
+</body>
+</html>
